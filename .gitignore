@@ -40,3 +40,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+src/app/complaints-list/complaints-list.component.html
+src/app/app.component.html
+src/app/complaints-list/complaints-list.component.html
+src/app/complaints-list/complaints-list.component.html
+src/app/complaints-list/complaints-list.component.ts
+src/app/complaints-list/complaints-list.component.ts
+src/app/complaints.service.ts

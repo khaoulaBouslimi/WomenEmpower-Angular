@@ -8,12 +8,15 @@ import { CreateComplaintsComponent } from './create-complaints/create-complaints
 import { ComplaintsDetailsComponent } from './complaints-details/complaints-details.component';
 import { ComplaintsListComponent } from './complaints-list/complaints-list.component';
 import { UpdateComplaintsComponent } from './update-complaints/update-complaints.component';
-import { FormsModule } from '@angular/forms';
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { DisplayEventComponent } from './Events/display-event/display-event.component';
+
 
 @NgModule({
   declarations: [
@@ -22,18 +25,20 @@ import { FooterComponent } from './footer/footer.component';
     ComplaintsDetailsComponent,
     ComplaintsListComponent,
     UpdateComplaintsComponent,
-    
+
     LoginComponent,
     RegisterComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

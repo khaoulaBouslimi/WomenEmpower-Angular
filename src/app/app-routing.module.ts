@@ -8,6 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { UpdateComplaintsComponent } from './update-complaints/update-complaints.component';
 
+
+
 const routes: Routes = [
   { path: '', component:HomeComponent },
   { path: 'complaintsList', component: ComplaintsListComponent },
