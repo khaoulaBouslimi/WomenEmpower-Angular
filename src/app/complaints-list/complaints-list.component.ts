@@ -15,7 +15,11 @@ export class ComplaintsListComponent implements OnInit {
     topic: '',
     complaintDate: ''
   };
+<<<<<<< HEAD
   submitted:boolean=false;
+=======
+
+>>>>>>> ala-Branch
   constructor(private complaintsService :ComplaintsService) {
     this.complaintsService.getAll().subscribe(data=>this.dataC=data);
    }
@@ -38,9 +42,12 @@ export class ComplaintsListComponent implements OnInit {
           console.log(error);
         });
   }
+<<<<<<< HEAD
   editComplaint(data:Complaints){
     this.complaintsService.updateComplaints(data).subscribe();
   }
 
+=======
+>>>>>>> ala-Branch
 
 }

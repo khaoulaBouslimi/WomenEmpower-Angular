@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
+<<<<<<< HEAD
 import { Observable } from 'rxjs';
+=======
+>>>>>>> ala-Branch
 @Injectable({
   providedIn: 'root'
 })
@@ -16,7 +19,11 @@ export class ComplaintsService {
   addComplaints(data : any) {
     return this.httpClient.post(`${this.API_URL}/api/complaints/add`, data)
   }
+<<<<<<< HEAD
   updateComplaints( data : any):Observable<Object>{
+=======
+  updateComplaints(data : any){
+>>>>>>> ala-Branch
     return this.httpClient.put(`${this.API_URL}/api/complaints/update`, data)
   }
   delete(id : any){
@@ -25,7 +32,11 @@ export class ComplaintsService {
   get(id : any){
     return  this.httpClient.get(`http://localhost:8000/api/complaints/get/${id}`)
   }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> ala-Branch
   
 
 

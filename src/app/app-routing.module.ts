@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { UpdateComplaintsComponent } from './update-complaints/update-complaints.component';
 
+import { DisplayEventComponent } from './Events/display-event/display-event.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'login', component:LoginComponent },
   { path: 'register', component:RegisterComponent },
   { path: 'update', component:UpdateComplaintsComponent },
+  {path:'event',component:DisplayEventComponent}
 ];
 
 @NgModule({

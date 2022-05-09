@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
 import { Complaints } from '../complaints';
 import { ComplaintsService } from '../complaints.service';
+=======
+>>>>>>> ala-Branch
 
 @Component({
   selector: 'app-update-complaints',
@@ -8,6 +11,7 @@ import { ComplaintsService } from '../complaints.service';
   styleUrls: ['./update-complaints.component.css']
 })
 export class UpdateComplaintsComponent implements OnInit {
+<<<<<<< HEAD
   data : Complaints = {
     id:'',
     topic: '',
@@ -26,4 +30,12 @@ export class UpdateComplaintsComponent implements OnInit {
   ngOnInit(): void {
     ;
   }
+=======
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+>>>>>>> ala-Branch
 }
